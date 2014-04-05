@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		774B1CFE18EFD86B0019CA40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 774B1CFD18EFD86B0019CA40 /* Foundation.framework */; };
+		774B1D0018EFD86C0019CA40 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 774B1CFF18EFD86C0019CA40 /* CoreGraphics.framework */; };
+		774B1D0218EFD86C0019CA40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 774B1D0118EFD86C0019CA40 /* UIKit.framework */; };
+		774B1D0818EFD86C0019CA40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 774B1D0618EFD86C0019CA40 /* InfoPlist.strings */; };
+		774B1D0A18EFD86C0019CA40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 774B1D0918EFD86C0019CA40 /* main.m */; };
+		774B1D0E18EFD86C0019CA40 /* KVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 774B1D0D18EFD86C0019CA40 /* KVAppDelegate.m */; };
+		774B1D1118EFD86C0019CA40 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 774B1D0F18EFD86C0019CA40 /* Main_iPhone.storyboard */; };
+		774B1D1418EFD86C0019CA40 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 774B1D1218EFD86C0019CA40 /* Main_iPad.storyboard */; };
+		774B1D1718EFD86C0019CA40 /* KVFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 774B1D1618EFD86C0019CA40 /* KVFirstViewController.m */; };
+		774B1D1A18EFD86C0019CA40 /* KVSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 774B1D1918EFD86C0019CA40 /* KVSecondViewController.m */; };
+		774B1D1C18EFD86C0019CA40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 774B1D1B18EFD86C0019CA40 /* Images.xcassets */; };
+		774B1D2318EFD86C0019CA40 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 774B1D2218EFD86C0019CA40 /* XCTest.framework */; };
+		774B1D2418EFD86C0019CA40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 774B1CFD18EFD86B0019CA40 /* Foundation.framework */; };
+		774B1D2518EFD86C0019CA40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 774B1D0118EFD86C0019CA40 /* UIKit.framework */; };
+		774B1D2D18EFD86C0019CA40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 774B1D2B18EFD86C0019CA40 /* InfoPlist.strings */; };
+		774B1D2F18EFD86C0019CA40 /* KvittTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 774B1D2E18EFD86C0019CA40 /* KvittTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		774B1D2618EFD86C0019CA40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 774B1CF218EFD86B0019CA40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 774B1CF918EFD86B0019CA40;
+			remoteInfo = Kvitt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		774B1CFA18EFD86B0019CA40 /* Kvitt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kvitt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		774B1CFD18EFD86B0019CA40 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		774B1CFF18EFD86C0019CA40 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		774B1D0118EFD86C0019CA40 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		774B1D0518EFD86C0019CA40 /* Kvitt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kvitt-Info.plist"; sourceTree = "<group>"; };
+		774B1D0718EFD86C0019CA40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		774B1D0918EFD86C0019CA40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		774B1D0B18EFD86C0019CA40 /* Kvitt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kvitt-Prefix.pch"; sourceTree = "<group>"; };
+		774B1D0C18EFD86C0019CA40 /* KVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVAppDelegate.h; sourceTree = "<group>"; };
+		774B1D0D18EFD86C0019CA40 /* KVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVAppDelegate.m; sourceTree = "<group>"; };
+		774B1D1018EFD86C0019CA40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		774B1D1318EFD86C0019CA40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		774B1D1518EFD86C0019CA40 /* KVFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVFirstViewController.h; sourceTree = "<group>"; };
+		774B1D1618EFD86C0019CA40 /* KVFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVFirstViewController.m; sourceTree = "<group>"; };
+		774B1D1818EFD86C0019CA40 /* KVSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVSecondViewController.h; sourceTree = "<group>"; };
+		774B1D1918EFD86C0019CA40 /* KVSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVSecondViewController.m; sourceTree = "<group>"; };
+		774B1D1B18EFD86C0019CA40 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		774B1D2118EFD86C0019CA40 /* KvittTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KvittTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		774B1D2218EFD86C0019CA40 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		774B1D2A18EFD86C0019CA40 /* KvittTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KvittTests-Info.plist"; sourceTree = "<group>"; };
+		774B1D2C18EFD86C0019CA40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		774B1D2E18EFD86C0019CA40 /* KvittTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KvittTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		774B1CF718EFD86B0019CA40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				774B1D0018EFD86C0019CA40 /* CoreGraphics.framework in Frameworks */,
+				774B1D0218EFD86C0019CA40 /* UIKit.framework in Frameworks */,
+				774B1CFE18EFD86B0019CA40 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		774B1D1E18EFD86C0019CA40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				774B1D2318EFD86C0019CA40 /* XCTest.framework in Frameworks */,
+				774B1D2518EFD86C0019CA40 /* UIKit.framework in Frameworks */,
+				774B1D2418EFD86C0019CA40 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		774B1CF118EFD86B0019CA40 = {
+			isa = PBXGroup;
+			children = (
+				774B1D0318EFD86C0019CA40 /* Kvitt */,
+				774B1D2818EFD86C0019CA40 /* KvittTests */,
+				774B1CFC18EFD86B0019CA40 /* Frameworks */,
+				774B1CFB18EFD86B0019CA40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		774B1CFB18EFD86B0019CA40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				774B1CFA18EFD86B0019CA40 /* Kvitt.app */,
+				774B1D2118EFD86C0019CA40 /* KvittTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		774B1CFC18EFD86B0019CA40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				774B1CFD18EFD86B0019CA40 /* Foundation.framework */,
+				774B1CFF18EFD86C0019CA40 /* CoreGraphics.framework */,
+				774B1D0118EFD86C0019CA40 /* UIKit.framework */,
+				774B1D2218EFD86C0019CA40 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		774B1D0318EFD86C0019CA40 /* Kvitt */ = {
+			isa = PBXGroup;
+			children = (
+				774B1D0C18EFD86C0019CA40 /* KVAppDelegate.h */,
+				774B1D0D18EFD86C0019CA40 /* KVAppDelegate.m */,
+				774B1D0F18EFD86C0019CA40 /* Main_iPhone.storyboard */,
+				774B1D1218EFD86C0019CA40 /* Main_iPad.storyboard */,
+				774B1D1518EFD86C0019CA40 /* KVFirstViewController.h */,
+				774B1D1618EFD86C0019CA40 /* KVFirstViewController.m */,
+				774B1D1818EFD86C0019CA40 /* KVSecondViewController.h */,
+				774B1D1918EFD86C0019CA40 /* KVSecondViewController.m */,
+				774B1D1B18EFD86C0019CA40 /* Images.xcassets */,
+				774B1D0418EFD86C0019CA40 /* Supporting Files */,
+			);
+			path = Kvitt;
+			sourceTree = "<group>";
+		};
+		774B1D0418EFD86C0019CA40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				774B1D0518EFD86C0019CA40 /* Kvitt-Info.plist */,
+				774B1D0618EFD86C0019CA40 /* InfoPlist.strings */,
+				774B1D0918EFD86C0019CA40 /* main.m */,
+				774B1D0B18EFD86C0019CA40 /* Kvitt-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		774B1D2818EFD86C0019CA40 /* KvittTests */ = {
+			isa = PBXGroup;
+			children = (
+				774B1D2E18EFD86C0019CA40 /* KvittTests.m */,
+				774B1D2918EFD86C0019CA40 /* Supporting Files */,
+			);
+			path = KvittTests;
+			sourceTree = "<group>";
+		};
+		774B1D2918EFD86C0019CA40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				774B1D2A18EFD86C0019CA40 /* KvittTests-Info.plist */,
+				774B1D2B18EFD86C0019CA40 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		774B1CF918EFD86B0019CA40 /* Kvitt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 774B1D3218EFD86C0019CA40 /* Build configuration list for PBXNativeTarget "Kvitt" */;
+			buildPhases = (
+				774B1CF618EFD86B0019CA40 /* Sources */,
+				774B1CF718EFD86B0019CA40 /* Frameworks */,
+				774B1CF818EFD86B0019CA40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kvitt;
+			productName = Kvitt;
+			productReference = 774B1CFA18EFD86B0019CA40 /* Kvitt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		774B1D2018EFD86C0019CA40 /* KvittTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 774B1D3518EFD86C0019CA40 /* Build configuration list for PBXNativeTarget "KvittTests" */;
+			buildPhases = (
+				774B1D1D18EFD86C0019CA40 /* Sources */,
+				774B1D1E18EFD86C0019CA40 /* Frameworks */,
+				774B1D1F18EFD86C0019CA40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				774B1D2718EFD86C0019CA40 /* PBXTargetDependency */,
+			);
+			name = KvittTests;
+			productName = KvittTests;
+			productReference = 774B1D2118EFD86C0019CA40 /* KvittTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		774B1CF218EFD86B0019CA40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KV;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Geysir It AS";
+				TargetAttributes = {
+					774B1D2018EFD86C0019CA40 = {
+						TestTargetID = 774B1CF918EFD86B0019CA40;
+					};
+				};
+			};
+			buildConfigurationList = 774B1CF518EFD86B0019CA40 /* Build configuration list for PBXProject "Kvitt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 774B1CF118EFD86B0019CA40;
+			productRefGroup = 774B1CFB18EFD86B0019CA40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				774B1CF918EFD86B0019CA40 /* Kvitt */,
+				774B1D2018EFD86C0019CA40 /* KvittTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		774B1CF818EFD86B0019CA40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				774B1D1418EFD86C0019CA40 /* Main_iPad.storyboard in Resources */,
+				774B1D1C18EFD86C0019CA40 /* Images.xcassets in Resources */,
+				774B1D1118EFD86C0019CA40 /* Main_iPhone.storyboard in Resources */,
+				774B1D0818EFD86C0019CA40 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		774B1D1F18EFD86C0019CA40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				774B1D2D18EFD86C0019CA40 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		774B1CF618EFD86B0019CA40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				774B1D0A18EFD86C0019CA40 /* main.m in Sources */,
+				774B1D0E18EFD86C0019CA40 /* KVAppDelegate.m in Sources */,
+				774B1D1718EFD86C0019CA40 /* KVFirstViewController.m in Sources */,
+				774B1D1A18EFD86C0019CA40 /* KVSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		774B1D1D18EFD86C0019CA40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				774B1D2F18EFD86C0019CA40 /* KvittTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		774B1D2718EFD86C0019CA40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 774B1CF918EFD86B0019CA40 /* Kvitt */;
+			targetProxy = 774B1D2618EFD86C0019CA40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		774B1D0618EFD86C0019CA40 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				774B1D0718EFD86C0019CA40 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		774B1D0F18EFD86C0019CA40 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				774B1D1018EFD86C0019CA40 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		774B1D1218EFD86C0019CA40 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				774B1D1318EFD86C0019CA40 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		774B1D2B18EFD86C0019CA40 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				774B1D2C18EFD86C0019CA40 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		774B1D3018EFD86C0019CA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		774B1D3118EFD86C0019CA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		774B1D3318EFD86C0019CA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kvitt/Kvitt-Prefix.pch";
+				INFOPLIST_FILE = "Kvitt/Kvitt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		774B1D3418EFD86C0019CA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kvitt/Kvitt-Prefix.pch";
+				INFOPLIST_FILE = "Kvitt/Kvitt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		774B1D3618EFD86C0019CA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kvitt.app/Kvitt";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kvitt/Kvitt-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KvittTests/KvittTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		774B1D3718EFD86C0019CA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kvitt.app/Kvitt";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kvitt/Kvitt-Prefix.pch";
+				INFOPLIST_FILE = "KvittTests/KvittTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		774B1CF518EFD86B0019CA40 /* Build configuration list for PBXProject "Kvitt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				774B1D3018EFD86C0019CA40 /* Debug */,
+				774B1D3118EFD86C0019CA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		774B1D3218EFD86C0019CA40 /* Build configuration list for PBXNativeTarget "Kvitt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				774B1D3318EFD86C0019CA40 /* Debug */,
+				774B1D3418EFD86C0019CA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		774B1D3518EFD86C0019CA40 /* Build configuration list for PBXNativeTarget "KvittTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				774B1D3618EFD86C0019CA40 /* Debug */,
+				774B1D3718EFD86C0019CA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 774B1CF218EFD86B0019CA40 /* Project object */;
+}
