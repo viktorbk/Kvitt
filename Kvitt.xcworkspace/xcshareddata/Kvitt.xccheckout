@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>00EDB8E3-CBE9-422C-8F4F-90C48342B57B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Kvitt</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CB949ABE-B2F7-4E94-AEAE-EB5F8DA623AF</key>
+		<string>https://github.com/viktorbk/Kvitt.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Kvitt.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CB949ABE-B2F7-4E94-AEAE-EB5F8DA623AF</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/viktorbk/Kvitt.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CB949ABE-B2F7-4E94-AEAE-EB5F8DA623AF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CB949ABE-B2F7-4E94-AEAE-EB5F8DA623AF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Kvitt</string>
+		</dict>
+	</array>
+</dict>
+</plist>

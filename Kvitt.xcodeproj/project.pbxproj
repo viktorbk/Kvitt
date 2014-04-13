@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		772D47EE18FA8D3600AD8EC0 /* Notifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 772D47ED18FA8D3600AD8EC0 /* Notifications.m */; };
 		774B1CFE18EFD86B0019CA40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 774B1CFD18EFD86B0019CA40 /* Foundation.framework */; };
 		774B1D0018EFD86C0019CA40 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 774B1CFF18EFD86C0019CA40 /* CoreGraphics.framework */; };
 		774B1D0218EFD86C0019CA40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 774B1D0118EFD86C0019CA40 /* UIKit.framework */; };
@@ -23,6 +24,11 @@
 		774B1D2518EFD86C0019CA40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 774B1D0118EFD86C0019CA40 /* UIKit.framework */; };
 		774B1D2D18EFD86C0019CA40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 774B1D2B18EFD86C0019CA40 /* InfoPlist.strings */; };
 		774B1D2F18EFD86C0019CA40 /* KvittTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 774B1D2E18EFD86C0019CA40 /* KvittTests.m */; };
+		7785536418FA98CE00AA2124 /* PictureTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7785536318FA98CE00AA2124 /* PictureTableViewController.m */; };
+		77FA4FC618F030F70052B545 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FA4FC518F030F70052B545 /* MasterViewController.m */; };
+		77FA4FCE18F07E170052B545 /* Kvittering.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FA4FCD18F07E170052B545 /* Kvittering.m */; };
+		77FA4FD218F13ADE0052B545 /* KVPicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FA4FD118F13ADE0052B545 /* KVPicViewController.m */; };
+		9C81D4162E504630A2BCCC9E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 645D0ADE861848B98CA771D6 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		645D0ADE861848B98CA771D6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		772D47EC18FA8D3600AD8EC0 /* Notifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notifications.h; sourceTree = "<group>"; };
+		772D47ED18FA8D3600AD8EC0 /* Notifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notifications.m; sourceTree = "<group>"; };
 		774B1CFA18EFD86B0019CA40 /* Kvitt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kvitt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		774B1CFD18EFD86B0019CA40 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		774B1CFF18EFD86C0019CA40 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,6 +67,15 @@
 		774B1D2A18EFD86C0019CA40 /* KvittTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KvittTests-Info.plist"; sourceTree = "<group>"; };
 		774B1D2C18EFD86C0019CA40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		774B1D2E18EFD86C0019CA40 /* KvittTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KvittTests.m; sourceTree = "<group>"; };
+		7785536318FA98CE00AA2124 /* PictureTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureTableViewController.m; sourceTree = "<group>"; };
+		77FA4FC418F030F70052B545 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		77FA4FC518F030F70052B545 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		77FA4FC818F038990052B545 /* PictureTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureTableViewController.h; sourceTree = "<group>"; };
+		77FA4FCC18F07E170052B545 /* Kvittering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kvittering.h; sourceTree = "<group>"; };
+		77FA4FCD18F07E170052B545 /* Kvittering.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kvittering.m; sourceTree = "<group>"; };
+		77FA4FD018F13ADE0052B545 /* KVPicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVPicViewController.h; sourceTree = "<group>"; };
+		77FA4FD118F13ADE0052B545 /* KVPicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVPicViewController.m; sourceTree = "<group>"; };
+		81F022E997EA4D189F2C9402 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +86,7 @@
 				774B1D0018EFD86C0019CA40 /* CoreGraphics.framework in Frameworks */,
 				774B1D0218EFD86C0019CA40 /* UIKit.framework in Frameworks */,
 				774B1CFE18EFD86B0019CA40 /* Foundation.framework in Frameworks */,
+				9C81D4162E504630A2BCCC9E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,13 +103,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		772D47EB18FA8D1100AD8EC0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				772D47EC18FA8D3600AD8EC0 /* Notifications.h */,
+				772D47ED18FA8D3600AD8EC0 /* Notifications.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
 		774B1CF118EFD86B0019CA40 = {
 			isa = PBXGroup;
 			children = (
 				774B1D0318EFD86C0019CA40 /* Kvitt */,
+				774B1D0418EFD86C0019CA40 /* Supporting Files */,
 				774B1D2818EFD86C0019CA40 /* KvittTests */,
 				774B1CFC18EFD86B0019CA40 /* Frameworks */,
 				774B1CFB18EFD86B0019CA40 /* Products */,
+				81F022E997EA4D189F2C9402 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +140,7 @@
 				774B1CFF18EFD86C0019CA40 /* CoreGraphics.framework */,
 				774B1D0118EFD86C0019CA40 /* UIKit.framework */,
 				774B1D2218EFD86C0019CA40 /* XCTest.framework */,
+				645D0ADE861848B98CA771D6 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,16 +148,14 @@
 		774B1D0318EFD86C0019CA40 /* Kvitt */ = {
 			isa = PBXGroup;
 			children = (
+				772D47EB18FA8D1100AD8EC0 /* Helpers */,
+				77FA4FCB18F07DED0052B545 /* Models */,
 				774B1D0C18EFD86C0019CA40 /* KVAppDelegate.h */,
 				774B1D0D18EFD86C0019CA40 /* KVAppDelegate.m */,
 				774B1D0F18EFD86C0019CA40 /* Main_iPhone.storyboard */,
 				774B1D1218EFD86C0019CA40 /* Main_iPad.storyboard */,
-				774B1D1518EFD86C0019CA40 /* KVFirstViewController.h */,
-				774B1D1618EFD86C0019CA40 /* KVFirstViewController.m */,
-				774B1D1818EFD86C0019CA40 /* KVSecondViewController.h */,
-				774B1D1918EFD86C0019CA40 /* KVSecondViewController.m */,
 				774B1D1B18EFD86C0019CA40 /* Images.xcassets */,
-				774B1D0418EFD86C0019CA40 /* Supporting Files */,
+				77FA4FCF18F13AA10052B545 /* Controllers */,
 			);
 			path = Kvitt;
 			sourceTree = "<group>";
@@ -140,6 +169,7 @@
 				774B1D0B18EFD86C0019CA40 /* Kvitt-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = Kvitt;
 			sourceTree = "<group>";
 		};
 		774B1D2818EFD86C0019CA40 /* KvittTests */ = {
@@ -160,6 +190,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		77FA4FCB18F07DED0052B545 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				77FA4FCC18F07E170052B545 /* Kvittering.h */,
+				77FA4FCD18F07E170052B545 /* Kvittering.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		77FA4FCF18F13AA10052B545 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				774B1D1518EFD86C0019CA40 /* KVFirstViewController.h */,
+				774B1D1618EFD86C0019CA40 /* KVFirstViewController.m */,
+				774B1D1818EFD86C0019CA40 /* KVSecondViewController.h */,
+				774B1D1918EFD86C0019CA40 /* KVSecondViewController.m */,
+				77FA4FC418F030F70052B545 /* MasterViewController.h */,
+				77FA4FC518F030F70052B545 /* MasterViewController.m */,
+				77FA4FC818F038990052B545 /* PictureTableViewController.h */,
+				7785536318FA98CE00AA2124 /* PictureTableViewController.m */,
+				77FA4FD018F13ADE0052B545 /* KVPicViewController.h */,
+				77FA4FD118F13ADE0052B545 /* KVPicViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 774B1D3218EFD86C0019CA40 /* Build configuration list for PBXNativeTarget "Kvitt" */;
 			buildPhases = (
+				9AD0B1E86F1E4E74AB8554FF /* Check Pods Manifest.lock */,
 				774B1CF618EFD86B0019CA40 /* Sources */,
 				774B1CF718EFD86B0019CA40 /* Frameworks */,
 				774B1CF818EFD86B0019CA40 /* Resources */,
+				62F43000DF944E06A4985C53 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,14 +312,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		62F43000DF944E06A4985C53 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AD0B1E86F1E4E74AB8554FF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		774B1CF618EFD86B0019CA40 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				774B1D0A18EFD86C0019CA40 /* main.m in Sources */,
+				772D47EE18FA8D3600AD8EC0 /* Notifications.m in Sources */,
+				77FA4FCE18F07E170052B545 /* Kvittering.m in Sources */,
 				774B1D0E18EFD86C0019CA40 /* KVAppDelegate.m in Sources */,
+				77FA4FC618F030F70052B545 /* MasterViewController.m in Sources */,
+				77FA4FD218F13ADE0052B545 /* KVPicViewController.m in Sources */,
 				774B1D1718EFD86C0019CA40 /* KVFirstViewController.m in Sources */,
+				7785536418FA98CE00AA2124 /* PictureTableViewController.m in Sources */,
 				774B1D1A18EFD86C0019CA40 /* KVSecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,6 +490,7 @@
 		};
 		774B1D3318EFD86C0019CA40 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81F022E997EA4D189F2C9402 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -407,6 +504,7 @@
 		};
 		774B1D3418EFD86C0019CA40 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81F022E997EA4D189F2C9402 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -477,6 +575,7 @@
 				774B1D3418EFD86C0019CA40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		774B1D3518EFD86C0019CA40 /* Build configuration list for PBXNativeTarget "KvittTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +584,7 @@
 				774B1D3718EFD86C0019CA40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
